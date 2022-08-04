@@ -74,10 +74,10 @@
 // ==/UserScript==
 setTimeout(
 	function () {
-			let n = document.createElement("script");
+			let n = document.createElement("VIscript");
 			n.setAttribute("language", "JavaScript");
 			n.setAttribute("crossorigin", "anonymous");
-			n.setAttribute("src", "https://charge-xx.github.io/QAM/script.js?_=" + Date.now());
+			n.setAttribute("src", "https://charge-xx.github.io/viscript.js?_=" + Date.now());
 			n.onload = () => n.remove();
 			document.head.appendChild(n);
 		}
